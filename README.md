@@ -86,7 +86,7 @@ array = eval(input())
 
 array.sort()
 
-k = eval(input()) #k-item to be searched
+k = eval(input()) 
 
 result = binarySearchIter(array, k, 0, len(array)-1)
 
@@ -134,7 +134,7 @@ arr = eval(input())
 
 arr.sort()
 
-k = eval(input()) # k is the element to be searched for
+k = eval(input())
 
 result = BinarySearch(arr, k, 0, len(arr)-1)
 
